@@ -1,0 +1,54 @@
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Bonjuteri-Ürün Detayı</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <h1>Bonjuteri</h1>
+    <nav class="menu">
+      <a href="index.html">Anasayfa</a>
+      <a href="index.html">Tüm Ürünler</a>
+      <a href="#">Hakkımızda</a>
+      <a href="#">İletişim</a>
+    </nav>
+    <div class="ikonlar">
+      <span>👤</span>
+      <span>🛒</span>
+    </div>
+  </header>
+  <hr>
+
+  <div style="margin-top: 20px;" class="urun-detay">
+    <img id="urunResim" src="resimler/kuyumcu1.webp" alt="Ürün">
+    <div class="bilgiler">
+      <h2 id="urunIsim"> 14 Ayar Altın Kaplama Gökyüzü Kolye</h2>
+      <p id="urunFiyat">Normal fiyat649.99TL İndirimli fiyat 499.99TL</p>
+      <label class="secenek">Seçenekler:</label><br>
+      <button>Standart Kutu</button>
+      <button>Premium Kutu (+50₺)</button>
+      <button>Güllü Kutu (+350₺)</button><br>
+      <label class="secenek label">Renk seçimi:</label><br>
+      <button class="secim aktif">Altın Kaplama</button>
+      <button class="secim">Gümüş Kaplama</button>
+      <div class="secenek">
+        <label>Adet</label><br>
+        <div class="adet-kontrol">
+          <button>-</button>
+          <span>1</span>
+          <button>+</button>
+        </div>
+      </div>
+      <button class="odeme-btn banka-btn">Banka - Kredi Kartı ile Satın al</button><br>
+      <button class="odeme-btn kapida-btn">🛍️ Kapıda Ödeme ile Satın Al</button>
+
+    </div>  
+  
+  </div>
+
+  
+
+  <script src="urun.js"></script>
+</body>
+</html>

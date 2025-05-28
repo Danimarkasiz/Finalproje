@@ -1,0 +1,39 @@
+.body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+}
+header {
+  background-color: #f8f8f8;
+  padding: 10px;
+  text-align: center;
+}
+.urun-listesi {
+  display: flex;
+  gap: 20px;
+}
+.urun {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+}
+.urun img {
+  width: 100%;
+}
+.fiyat {
+  font-weight: bold;
+  color: green;
+}
+.urun-detay {
+  display: flex;
+  gap: 30px;
+}
+.urun-detay img {
+  width: 300px;
+}
+.bilgiler button {
+  margin: 5px;
+  padding: 10px;
+}
