@@ -23,7 +23,7 @@ header {
 }
 .fiyat {
   font-weight: bold;
-  color: green;
+  color: black;
 }
 .urun-detay {
   display: flex;
