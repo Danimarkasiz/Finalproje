@@ -39,17 +39,18 @@
     }
 
     .footer {
-      margin: 40px 20px 20px;
-      padding: 30px;
-      background: linear-gradient(to right, #333, #444);
-      color: #f0f0f0;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-      font-family: 'Segoe UI', sans-serif;
-    }
+    margin: 40px 20px 20px;
+    padding: 30px;
+    background-color: #f0f0f0; /* Yeni arka plan rengi */
+    color: #222; /* Yazı rengi koyulaştırıldı */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Gölge biraz yumuşatıldı */
+    font-family: 'Segoe UI', sans-serif;
+  }
+
 
     .footer-section {
       flex: 1 1 200px;
@@ -66,7 +67,7 @@
 
     .footer-section a {
       text-decoration: none;
-      color: #ddd;
+      color: black;
       margin: 4px 0;
       transition: color 0.3s, transform 0.3s;
     }
@@ -81,18 +82,18 @@
       font-size: 14px;
     }
 
-        .navbar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background: linear-gradient(to right, #222, #444);
-      padding: 20px 40px;
-      color: #fff;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
-      font-family: 'Segoe UI', sans-serif;
-      border-radius: 0 0 12px 12px;
-      flex-wrap: wrap;
-    }
+          .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f0f0f0;
+        padding: 20px 40px;
+        color: #222; 
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+        font-family: 'Segoe UI', sans-serif;
+        border-radius: 0 0 12px 12px;
+        flex-wrap: wrap;
+      }
 
     .logo {
       font-size: 28px;
@@ -110,7 +111,7 @@
 
     .menu a {
       text-decoration: none;
-      color: #ddd;
+       color: black;
       font-weight: 500;
       transition: color 0.3s, transform 0.3s;
     }
@@ -138,7 +139,7 @@
     <img id="urunResim" src="resimler/kuyumcu3.webp" alt="Ürün">
     <div class="bilgiler">
       <h2 id="urunIsim"> 14 Ayar Altın Kaplama 100 Dilde Seni seviyorum Kolye</h2>
-      <p id="urunFiyat">Normal fiyat: 649.99TL İndirimli fiyat: 499.99TL</p>
+      <p id="urunFiyat">Normal fiyat: <s>649.99TL</s> İndirimli fiyat: 499.99TL</p>
       <label class="secenek">Seçenekler:</label><br>
       <button>Standart Kutu</button>
       <button>Premium Kutu (+50₺)</button>

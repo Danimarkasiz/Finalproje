@@ -38,18 +38,19 @@
         font-weight: bold;
     }
 
-    .footer {
+      .footer {
       margin: 40px 20px 20px;
       padding: 30px;
-      background: linear-gradient(to right, #333, #444);
-      color: #f0f0f0;
+      background-color: #f0f0f0; /* Yeni arka plan rengi */
+      color: #222; /* Yazı rengi koyulaştırıldı */
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Gölge biraz yumuşatıldı */
       font-family: 'Segoe UI', sans-serif;
     }
+
 
     .footer-section {
       flex: 1 1 200px;
@@ -66,7 +67,7 @@
 
     .footer-section a {
       text-decoration: none;
-       color: black;
+      color: black;
       margin: 4px 0;
       transition: color 0.3s, transform 0.3s;
     }
@@ -80,18 +81,20 @@
       margin: 4px 0;
       font-size: 14px;
     }
-    .navbar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: #f0f0f0; 
-      padding: 20px 40px;
-      color: #222; 
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
-      font-family: 'Segoe UI', sans-serif;
-      border-radius: 0 0 12px 12px;
-      flex-wrap: wrap;
-    }
+
+          .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f0f0f0;
+        padding: 20px 40px;
+        color: #222; 
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+        font-family: 'Segoe UI', sans-serif;
+        border-radius: 0 0 12px 12px;
+        flex-wrap: wrap;
+      }
+
     .logo {
       font-size: 28px;
       font-weight: bold;
@@ -133,9 +136,9 @@
   <hr>
 
   <div style="margin-top: 20px; margin-bottom: 20px; text-align: center;" class="urun-detay">
-    <img id="urunResim" src="resimler/kuyumcu2.webp" alt="Ürün">
+    <img id="urunResim" src="resimler/kuyumcu3.webp" alt="Ürün">
     <div class="bilgiler">
-      <h2 id="urunIsim">14 Ayar Altın Kaplama İtalyan İnci Kalp Kolye</h2>
+      <h2 id="urunIsim"> 14 Ayar Altın Kaplama 100 Dilde Seni seviyorum Kolye</h2>
       <p id="urunFiyat">Normal fiyat: <s>649.99TL</s> İndirimli fiyat: 499.99TL</p>
       <label class="secenek">Seçenekler:</label><br>
       <button>Standart Kutu</button>
