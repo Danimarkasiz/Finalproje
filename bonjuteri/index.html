@@ -99,7 +99,7 @@
       color: #fff;
       transform: translateY(-2px);
     }
-
+      
 
   </style>
 </head>
@@ -116,7 +116,7 @@
 
   <hr>
 
-  <div style="margin-top: 20px; margin-bottom: 20px;" class="urun-listesi">
+  <div style="margin-top: 20px; margin-bottom: 20px;" class="urun-listesi" >
     <div class="urun">
       <a href="urun.html">
         <img src="resimler/kuyumcu1.webp" alt="Kolye" />
@@ -125,51 +125,51 @@
       </a>
     </div>
     <div class="urun">
-      <a href="#">
+      <a href="urun2.html">
         <img src="resimler/kuyumcu2.webp" alt="Kolye" />
         <h2>14 Ayar Altın Kaplama İtalyan İnci Kalp Kolye</h2>
         <p class="fiyat">499.99 TL</p>
       </a>
     </div>
     <div class="urun">
-      <a href="#">
+      <a href="urun3.html">
         <img src="resimler/kuyumcu3.webp" alt="Kolye" />
         <h2>14 Ayar Altın Kaplama 100 Dilde Seni seviyorum Kolye</h2>
         <p class="fiyat">499.99 TL</p>
       </a>
     </div>
     <div class="urun">
-      <a href="#">
+      <a href="urun4.html">
         <img src="resimler/kuyumcu3.webp" alt="Kolye" />
         <h2>14 Ayar Altın Kaplama 100 Dilde Seni seviyorum Kolye</h2>
         <p class="fiyat">499.99 TL</p>
       </a>
     </div>
   </div>
-  <div style="margin-top: 20px; margin-bottom: 20px;" class="urun-listesi">
+  <div style="margin-top: 20px; margin-bottom: 20px;" class="urun-listesi" >
     <div class="urun">
-      <a href="#">
+      <a href="urun5.html">
         <img src="resimler/kuyumcu1.webp" alt="Kolye" />
         <h2>14 Ayar Altın Kaplama Gökyüzü Kolye</h2>
         <p class="fiyat">499.99 TL</p>
       </a>
     </div>
     <div class="urun">
-      <a href="#">
+      <a href="urun6.html">
         <img src="resimler/kuyumcu2.webp" alt="Kolye" />
         <h2>14 Ayar Altın Kaplama İtalyan İnci Kalp Kolye</h2>
         <p class="fiyat">499.99 TL</p>
       </a>
     </div>
     <div class="urun">
-      <a href="#">
+      <a href="urun7.html">
         <img src="resimler/kuyumcu3.webp" alt="Kolye" />
         <h2>14 Ayar Altın Kaplama 100 Dilde Seni seviyorum Kolye</h2>
         <p class="fiyat">499.99 TL</p>
       </a>
     </div>
     <div class="urun">
-      <a href="#">
+      <a href="urun8.html">
         <img src="resimler/kuyumcu3.webp" alt="Kolye" />
         <h2>14 Ayar Altın Kaplama 100 Dilde Seni seviyorum Kolye</h2>
         <p class="fiyat">499.99 TL</p>
@@ -238,6 +238,24 @@
     } else {
       navbar.style.boxShadow = "0 4px 10px rgba(0, 0, 0, 0.4)";
     }
+  });
+
+      
+  const urunListeleri = document.querySelectorAll('.urun-listesi');
+
+  urunListeleri.forEach(liste => {
+    liste.style.display = 'flex';
+    liste.style.justifyContent = 'center';  
+    liste.style.flexWrap = 'wrap';         
+    liste.style.gap = '20px';               
+  });
+
+  // Her bir ürün için de isteğe bağlı stiller
+  const urunler = document.querySelectorAll('.urun');
+  urunler.forEach(urun => {
+    urun.style.textAlign = 'center';
+    urun.style.margin = '10px';
+    urun.style.maxWidth = '250px';
   });
   </script>
 </body>
